@@ -6,7 +6,7 @@ This project aim was to create a proof-of-work blockchain that uses the made up 
 
 * Module 1 - Proof of work blockchain 
 * Module 2 - Builds upon module 1 - Adds the Breen Coin protocol
-* Module 3 - Builds upone module 1 & 2 - Adds smart contracts using solidity.
+* Module 3 - Builds upon module 1 & 2 - Adds smart contracts using solidity.
 
 # Module 1
 There are no coins in this module, builds a single minable blockchain using proof of work algorithm, the ability to verify the blockchain by checking hashes, and view the blockchain.
