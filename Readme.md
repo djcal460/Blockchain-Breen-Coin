@@ -22,7 +22,7 @@ python blockchain.py
 # Module 2
 
 ### Run the Nodes on the Blockchain
-These scripts represent nodes on the blockchain. This case is more realistic since each node holds a version of the chain and can verify and update the chain based on other nodes. Run all three and query them using the API. 
+Breen Coin protocol is added to this module. Earn 1 Breen coin per block mined. Transactions get added to the mempool and are added to the mined blocks. There are three nodes provided as scripts to test the blockchain. Run the three nodes and use the connect_node API to connect each node to the other nodes in the network. Wallets are not yet implemented, so can send any amount of Breen Coin per node. Nodes call replace_chain to see if they have the most up to date version of the blockchain and if not they are updated accordingly. 
 
 ```
 $ python breencoin_node_5001.py
